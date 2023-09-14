@@ -250,6 +250,83 @@ summary {
   line-height: normal;
 }
 
+h2 {
+  font-family: "Fraunces", serif;
+  color: black;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.229px;
+  width: 327px;
+}
+
+.explain {
+  color: #808397;
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 18px;
+  font-size: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.129px;
+  width: 327px;
+}
+
+.Learn {
+  color: #24303E;
+  font-family: "Fraunces", serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.Graphic h3 {
+  color: #24554A;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+.Graphic p.explain {
+  color: #24554A;
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px; /* 168.75% */
+  letter-spacing: -0.114px;
+}
+
+.photography h3 {
+  color: #052C3B;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+.photography p.explain {
+  color: #24554A;
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px; /* 168.75% */
+  letter-spacing: -0.114px;
+}
+
 @media screen and (max-width: 768px) {
   header {
     background: url("/ressources/images/photos/image-header.jpg") no-repeat center bottom, #3DBEFF;
@@ -287,5 +364,27 @@ summary {
   header .nav .navbar {
     display: grid;
     grid-template-columns: auto auto auto auto au;
+  }
+}
+@media screen and (max-width: 768px) {
+  .informations {
+    display: flex;
+    flex-direction: column;
+  }
+  .informations .transform {
+    width: 720px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .informations .stand-out {
+    width: 720px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */
