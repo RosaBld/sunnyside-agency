@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px) {
+
+    .testimonials {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        max-width: 768px;
+        
+        
+        .people {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            gap: 64px;
+            
+
+            .faces {
+                border-radius: 50%;
+                width: 72px;
+                height: 72px;
+                margin-left: 40%;
+            }
+
+            .review {
+                justify-content: center;
+                align-items:center;
+                width: 327px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 2560px) {
+    .testimonials {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 165px;
+        margin-right: 165px;
+        margin-bottom: 80px;
+
+        .people {
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items:center;
+            .faces {
+                border-radius: 50%;
+                width: 72px;
+                height: 72px; 
+            }    
+        }
+    }
+}

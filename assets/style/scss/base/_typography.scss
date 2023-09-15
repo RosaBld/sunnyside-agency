@@ -1,87 +1,307 @@
-.title {
-    font-family: 'Fraunces', serif;
-    color: #FFF;
-    font-size: 80px;
-    font-size: normal;
-    text-transform: uppercase;
-    padding-top: 144px;
-    font-weight: 900p;
-    text-align: center;
-    letter-spacing: 6.25px;
-    line-height: normal;
-}
+@media screen and (max-width: 768px) {
 
-h2 {
-    font-family: 'Fraunces', serif;
-    color: black;
-    text-align: center;
-    font-size: 32px;
-    font-style:normal;
-    font-weight: 900;
-    line-height: normal;
-    letter-spacing: -0.229px;
-    width: 327px;
-}
+    .title {
+        font-family: 'Fraunces', serif;
+        color: #FFF;
+        font-size: 80px;
+        font-size: normal;
+        text-transform: uppercase;
+        padding-top: 144px;
+        font-weight: 900p;
+        text-align: center;
+        letter-spacing: 6.25px;
+        line-height: normal;
+    }
 
-.explain {
-    color: #808397;
-    text-align: center;
-    font-family: 'Barlow';
-    font-size: 18px;
-    font-size: normal;
-    font-weight: 600;
-    line-height: 30px;
-    letter-spacing: -0.129px;
-    width: 327px;
-}
+    h2 {
+        font-family: 'Fraunces', serif;
+        color: black;
+        text-align: center;
+        font-size: 32px;
+        font-style:normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: -0.229px;
+        width: 327px;
+    }
 
-.Learn {
-    color: #24303E;
-    font-family: 'Fraunces', serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 25px; /* 166.667% */
-    letter-spacing: 1px;
-    text-transform: uppercase; 
-}
+    .explain {
+        color: #808397;
+        text-align: center;
+        font-family: 'Barlow';
+        font-size: 18px;
+        font-size: normal;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: -0.129px;
+        width: 327px;
+    }
 
-.Graphic {
-    h3 {
-        color: #24554A;
+    .Learn-pink {
+        color: #24303E;
+        font-family: 'Fraunces', serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px; /* 166.667% */
+        letter-spacing: 1px;
+        text-transform: uppercase; 
+        text-decoration: underline;
+        text-decoration-color: #FED9D0;
+        text-decoration-thickness: 8px;
+        &:hover {
+            text-transform: uppercase; 
+            text-decoration: underline;
+            text-decoration-color: #FE7766;
+            text-decoration-thickness: 8px;
+        }
+    }
+
+    .Learn-yellow {
+        color: #24303E;
+        font-family: 'Fraunces', serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px; /* 166.667% */
+        letter-spacing: 1px;
+        text-transform: uppercase; 
+        text-decoration: underline;
+        text-decoration-color: #FDF3B6;
+        text-decoration-thickness: 8px;
+        &:hover {
+            text-transform: uppercase; 
+            text-decoration: underline;
+            text-decoration-color:#FAD400;
+            text-decoration-thickness: 8px;
+        }
+    }
+
+    Graphic {
+        h3 {
+            color: #24554A;
+            text-align: center;
+            font-family: 'Fraunces', serif;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            letter-spacing: -0.2px;
+        }
+        p.info {
+            color: #24554A;
+            text-align: center;
+            font-family: 'Barlow';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 27px; /* 168.75% */
+            letter-spacing: -0.114px; 
+        }
+    }
+
+    .photography {
+        h3 {
+            color: #052C3B;
+            text-align: center;
+            font-family: 'Fraunces', serif;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            letter-spacing: -0.2px; 
+        }
+        p.info {
+            color: #24554A;
+            text-align: center;
+            font-family: 'Barlow';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 27px; /* 168.75% */
+            letter-spacing: -0.114px; 
+            }
+        }
+
+    h4 {
+        color: #A7AAAD;
         text-align: center;
         font-family: 'Fraunces', serif;
-        font-size: 28px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 900;
         line-height: normal;
-        letter-spacing: -0.2px;
+        letter-spacing: 4px;
     }
-    p.explain {
-        color: #24554A;
+
+    .review {
+        color: #5B636D;
         text-align: center;
         font-family: 'Barlow';
-        font-size: 16px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 600;
-        line-height: 27px; /* 168.75% */
-        letter-spacing: -0.114px; 
+        line-height: 32px; /* 177.778% */
+        letter-spacing: -0.129px;
+    }
+
+    .name {
+        color: #24303E;
+        text-align: center;
+        font-family: 'Fraunces', serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: -0.129px; 
+    }
+
+    .job {
+        color: #A7AAAD;
+        text-align: center;
+        font-family: 'Barlow';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 178.571% */
+        letter-spacing: -0.1px; 
+    }
+
+    .elements {
+        color: #458D7E;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 138.889% */
+        letter-spacing: -0.129px; 
     }
 }
 
-.photography {
-    h3 {
-        color: #052C3B;
+@media only screen and (min-width: 768px) and (max-width: 2560px) {
+    .title {
+        color: #FFF;
         text-align: center;
-        font-family: 'Fraunces', serif;
+        font-family: 'Fraunces';
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 8.75px;
+        text-transform: uppercase; 
+    }
+
+    .menu {
+        color: #FFF;
+        font-family: 'Barlow';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 138.889% */
+        letter-spacing: -0.129px;
+        text-decoration: none;
+    }
+    .menu_contact { 
+        background-color: white;
+        color:#052C3B;
+        text-decoration: none;
+        border-radius: 50px;
+        padding: 15px 30px 15px 30px;
+        font-family: 'Fraunces';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px; /* 166.667% */
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        &:hover {
+            border-radius: 28px;
+            opacity: 0.2537;
+            background: #FFF;
+            color: #FFF;
+            font-family: 'Fraunces';
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25px; /* 166.667% */
+            letter-spacing: -0.107px;
+            text-transform: uppercase;  
+        } 
+    } 
+
+    .informations {
+        h2 {
+            color: #24303E;
+            font-family: 'Fraunces' ;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            letter-spacing: -0.286px; 
+        }
+        .explain {
+            color: #808397;
+            font-family: 'Barlow';
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 30px; /* 166.667% */
+            letter-spacing: -0.129px; 
+        }
+        .Learn-pink {
+            color: #24303E;
+            font-family: 'Fraunces', serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 25px; /* 166.667% */
+            letter-spacing: 1px;
+            text-transform: uppercase; 
+            text-decoration: underline;
+            text-decoration-color: #FED9D0;
+            text-decoration-thickness: 8px;
+            &:hover {
+                text-transform: uppercase; 
+                text-decoration: underline;
+                text-decoration-color: #FE7766;
+                text-decoration-thickness: 8px;
+            }
+        }
+    
+        .Learn-yellow {
+            color: #24303E;
+            font-family: 'Fraunces', serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 25px; /* 166.667% */
+            letter-spacing: 1px;
+            text-transform: uppercase; 
+            text-decoration: underline;
+            text-decoration-color: #FDF3B6;
+            text-decoration-thickness: 8px;
+            &:hover {
+                text-transform: uppercase; 
+                text-decoration: underline;
+                text-decoration-color:#FAD400;
+                text-decoration-thickness: 8px;
+            }
+        }
+    }
+
+    h3 {
+        color: #24554A;
+        text-align: center;
+        font-family: 'Fraunces';
         font-size: 28px;
         font-style: normal;
         font-weight: 900;
         line-height: normal;
         letter-spacing: -0.2px; 
     }
-    p.explain {
-        color: #24554A;
+
+    .info {
+        color: #3E7467;
         text-align: center;
         font-family: 'Barlow';
         font-size: 16px;
@@ -89,5 +309,48 @@ h2 {
         font-weight: 600;
         line-height: 27px; /* 168.75% */
         letter-spacing: -0.114px; 
-        }
     }
+
+    .testimonials{
+        color: #A7AAAD;
+        text-align: center;
+        font-family: 'Fraunces';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 5px; 
+    }
+    .review {
+        color: #5B636D;
+        text-align: center;
+        font-family: 'Barlow';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; /* 177.778% */
+        letter-spacing: -0.129px;
+        margin-bottom: 69px;
+        margin-top: 58px; 
+    }
+    .name {
+        color: #24303E;
+        text-align: center;
+        font-family: 'Fraunces';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: -0.129px; 
+    }
+    .job {
+        color: #A7AAAD;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 178.571% */
+        letter-spacing: -0.1px; 
+    }
+}

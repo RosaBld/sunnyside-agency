@@ -2,26 +2,132 @@
     .informations {
         display: flex;
         flex-direction: column;
+
+        .egg {
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            background-color: #FFD300;
+            
+        }
         .transform {
-            width: 720px;
             height: 600px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
         }
+        .glass {
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
         .stand-out {
-            width: 720px;
             height: 600px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+        }
+        .Graphic {
+            background:url('/ressources/images/photos/image-graphic-design.jpg') no-repeat center;
+            background-size: 1300px;
+            height: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .graphic {
+                display: flex;
+                width: 350px;
+                flex-direction: column;
+                margin-top: 600px;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+        }
+        .photography {
+            background: url('/ressources/images/photos/image-photography.jpg') no-repeat center;
+            background-size: 1200px;
+            height: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .pics {
+                display: flex;
+                width: 350px;
+                flex-direction: column;
+                margin-top: 600px;
+                margin-bottom: 10px;
+            }
         }
     }
 }
 
 
 @media only screen and (min-width: 768px) and (max-width: 2560px) {
-
+    .informations {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        
+        .transform {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            order: -1;
+            .explain {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items:center;
+                width: 445px;
+            }
+        }
+        .stand-out {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .explain {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items:center;
+                width: 445px;
+            }
+            
+        }
+        .Graphic {
+            background:url('/ressources/images/photos/image-graphic-design.jpg') no-repeat center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .graphic {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 250px;
+                width: 339px;
+            }
+        }
+        .photography {
+            background: url('/ressources/images/photos/image-photography.jpg') no-repeat center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .pics {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items:center;
+                margin-top: 250px;
+                width: 339px;
+            }
+        }
+    }
 }
