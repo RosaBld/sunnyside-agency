@@ -621,7 +621,7 @@ summary {
 
 @media screen and (max-width: 768px) {
   header {
-    background: url("/ressources/images/photos/image-header.jpg") no-repeat center bottom, #3DBEFF;
+    background: url("ressources/images/photos/image-header.jpg") no-repeat center bottom, #3DBEFF;
     background-size: 1450px;
     max-height: 1000px;
     max-width: 768px;
@@ -648,7 +648,7 @@ summary {
 }
 @media only screen and (min-width: 768px) and (max-width: 2560px) {
   header {
-    background: url("/ressources/images/photos/image-header.jpg") no-repeat center bottom, #3DBEFF;
+    background: url("ressources/images/photos/image-header.jpg") no-repeat center bottom, #3DBEFF;
     background-size: 1100px;
     height: 550px;
   }
@@ -778,7 +778,7 @@ summary {
     width: 445px;
   }
   .informations .Graphic {
-    background: url("/ressources/images/photos/image-graphic-design.jpg") no-repeat center;
+    background: url("ressources/images/photos/image-graphic-design.jpg") no-repeat center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -792,7 +792,7 @@ summary {
     width: 339px;
   }
   .informations .photography {
-    background: url("/ressources/images/photos/image-photography.jpg") no-repeat center;
+    background: url("ressources/images/photos/image-photography.jpg") no-repeat center;
     display: flex;
     justify-content: center;
     align-items: center;
