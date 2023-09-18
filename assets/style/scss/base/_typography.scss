@@ -1,5 +1,26 @@
 @media screen and (max-width: 768px) {
 
+    .menu {
+        color: #808397;
+        font-family: 'Barlow';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 125% */
+        letter-spacing: -0.143px;
+        text-decoration: none;
+    }
+    .menu_contact {
+        color: #808397;
+        font-family: 'Barlow';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 125% */
+        letter-spacing: -0.143px;
+        text-decoration: none;
+    }
+
     .title {
         font-family: 'Fraunces', serif;
         color: #FFF;
@@ -216,15 +237,15 @@
         text-transform: uppercase;
         &:hover {
             border-radius: 28px;
-            opacity: 0.2537;
+            opacity: 0.5;
             background: #FFF;
             color: #FFF;
             font-family: 'Fraunces';
             font-size: 15px;
             font-style: normal;
-            font-weight: 700;
+            font-weight: 900;
             line-height: 25px; /* 166.667% */
-            letter-spacing: -0.107px;
+            letter-spacing: 1px;
             text-transform: uppercase;  
         } 
     } 
@@ -353,4 +374,37 @@
         line-height: 25px; /* 178.571% */
         letter-spacing: -0.1px; 
     }
+}
+
+.elements {
+    a {
+        color: #458D7E;
+        font-family: 'Barlow';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 138.889% */
+        letter-spacing: -0.129px;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+            color: white;
+        }
+    } 
+}
+
+.fb:hover {
+    filter: invert(93%) sepia(7%) saturate(27%) hue-rotate(216deg) brightness(150%) contrast(110%);
+}
+
+.ig:hover {
+    filter: invert(93%) sepia(7%) saturate(27%) hue-rotate(216deg) brightness(150%) contrast(110%);
+}
+
+.tw:hover {
+    filter: invert(93%) sepia(7%) saturate(27%) hue-rotate(216deg) brightness(150%) contrast(110%);
+}
+
+.pt:hover {
+    filter: invert(93%) sepia(7%) saturate(27%) hue-rotate(216deg) brightness(150%) contrast(110%);
 }
