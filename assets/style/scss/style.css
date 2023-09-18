@@ -789,13 +789,14 @@ summary {
     justify-content: center;
     align-items: center;
     margin-top: 250px;
-    width: 339px;
+    width: 100%;
   }
   .informations .photography {
     background: url("/sunnyside-agency/assets/images/photos/image-photography.jpg") no-repeat center;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .informations .photography .pics {
     display: flex;
@@ -803,7 +804,7 @@ summary {
     justify-content: center;
     align-items: center;
     margin-top: 250px;
-    width: 339px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
