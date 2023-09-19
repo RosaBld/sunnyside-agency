@@ -458,9 +458,9 @@ summary {
   }
   .menu_contact:hover {
     border-radius: 28px;
-    opacity: 0.5;
-    background: #FFF;
-    color: #FFF;
+    opacity: 0.8;
+    background: rgba(202, 222, 236, 0.733);
+    color: #ffffff;
     font-family: "Fraunces";
     font-size: 15px;
     font-style: normal;
@@ -659,8 +659,8 @@ summary {
   header .nav .navbar {
     display: grid;
     grid-template-columns: auto auto;
-    display: grid;
     height: 85px;
+    grid-column: 1/3;
   }
   header .nav .navbar img.brand {
     width: 250px;
@@ -672,9 +672,11 @@ summary {
     display: grid;
     grid-template-columns: auto auto auto auto;
     height: 70px;
-    gap: 79px;
-    align-items: end;
+    gap: 80px;
+    align-items: center;
     justify-content: end;
+    margin-top: 20px;
+    margin-right: 50px;
   }
   header .arrow {
     padding-left: 48%;
@@ -703,6 +705,7 @@ summary {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 600px;
   }
   .informations .stand-out {
     height: 600px;
@@ -714,7 +717,6 @@ summary {
   .informations .Graphic {
     background: url("/sunnyside-agency/assets/images/photos/image-graphic-design.jpg") no-repeat center;
     background-size: 1300px;
-    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -731,7 +733,6 @@ summary {
   .informations .photography {
     background: url("/sunnyside-agency/assets/images/photos/image-photography.jpg") no-repeat center;
     background-size: 1200px;
-    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -770,6 +771,9 @@ summary {
     align-items: center;
     justify-content: center;
   }
+  .informations .stand-out h2 {
+    width: 445px;
+  }
   .informations .stand-out .explain {
     display: flex;
     flex-direction: column;
@@ -782,7 +786,7 @@ summary {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: 100% 640px;
+    background-size: auto 640px;
     height: 640px;
   }
   .informations .Graphic .graphic {
@@ -805,7 +809,7 @@ summary {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: 100% 640px;
+    background-size: auto 640px;
   }
   .informations .photography .pics {
     display: flex;

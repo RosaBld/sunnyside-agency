@@ -21,6 +21,7 @@
             display: flex;
             align-items:center;
             justify-content: center;
+            height: 600px;
         }
         .stand-out {
             height: 600px;
@@ -32,7 +33,6 @@
         .Graphic {
             background:url('/sunnyside-agency/assets/images/photos/image-graphic-design.jpg') no-repeat center;
             background-size: 1300px;
-            height: 1000px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -50,7 +50,6 @@
         .photography {
             background: url('/sunnyside-agency/assets/images/photos/image-photography.jpg') no-repeat center;
             background-size: 1200px;
-            height: 1000px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -91,6 +90,9 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            h2 {
+                width: 445px;
+            }
             .explain {
                 display: flex;
                 flex-direction: column;
@@ -105,7 +107,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-size: 100% 640px;
+            background-size: auto 640px;
             height: 640px;
             
             .graphic {
@@ -130,7 +132,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-size: 100% 640px;
+            background-size: auto 640px;
             
 
             .pics {
