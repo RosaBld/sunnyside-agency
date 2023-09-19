@@ -105,6 +105,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            background-size: 100% 640px;
+            height: 640px;
             
             .graphic {
                 display: flex;
@@ -120,7 +122,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 100%;
+            background-size: 100% 640px;
+            
+
             .pics {
                 display: flex;
                 flex-direction: column;

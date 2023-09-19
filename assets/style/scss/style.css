@@ -782,6 +782,8 @@ summary {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: 100% 640px;
+    height: 640px;
   }
   .informations .Graphic .graphic {
     display: flex;
@@ -796,7 +798,7 @@ summary {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    background-size: 100% 640px;
   }
   .informations .photography .pics {
     display: flex;
