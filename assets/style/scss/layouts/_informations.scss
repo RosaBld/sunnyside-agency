@@ -115,6 +115,14 @@
                 align-items: center;
                 margin-top: 250px;
                 width: 100%;
+
+                .design {
+                    margin-top: 80px;
+                }
+                .info {
+                    display: flex;
+                    max-width: 339px;
+                }
             }
         }
         .photography {
@@ -132,6 +140,14 @@
                 align-items:center;
                 margin-top: 250px;
                 width: 100%;
+
+                .photo {
+                    margin-top: 80px;
+                }
+                .info {
+                    display: flex;
+                    max-width: 339px;
+                }
             }
         }
     }

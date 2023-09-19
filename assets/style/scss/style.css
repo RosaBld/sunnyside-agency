@@ -793,6 +793,13 @@ summary {
     margin-top: 250px;
     width: 100%;
   }
+  .informations .Graphic .graphic .design {
+    margin-top: 80px;
+  }
+  .informations .Graphic .graphic .info {
+    display: flex;
+    max-width: 339px;
+  }
   .informations .photography {
     background: url("/sunnyside-agency/assets/images/photos/image-photography.jpg") no-repeat center;
     display: flex;
@@ -807,6 +814,13 @@ summary {
     align-items: center;
     margin-top: 250px;
     width: 100%;
+  }
+  .informations .photography .pics .photo {
+    margin-top: 80px;
+  }
+  .informations .photography .pics .info {
+    display: flex;
+    max-width: 339px;
   }
 }
 @media screen and (max-width: 768px) {
